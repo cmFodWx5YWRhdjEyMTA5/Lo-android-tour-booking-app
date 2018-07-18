@@ -1,0 +1,6 @@
+name=Band
+icon=oasis
+description=Goa's best bands perform live at the ceremony. This package includes our own house band. Alternatively, you can select a band of your choice from the navigation menu.
+price=4000
+id=2
+type=default

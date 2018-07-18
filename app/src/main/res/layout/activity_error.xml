@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.shajikhan.lo.Error">
+
+    <LinearLayout
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="150px"
+            android:layout_weight="0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="280px"
+            android:src="@drawable/dil"
+            android:id="@+id/error_logo"
+            android:tint="@color/colorPrimary"
+            android:layout_gravity="center"
+            />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_weight="0" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/error_msg"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/error_msg"/>
+        <Button
+            android:id="@+id/error_b"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="@string/error_contact"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<payload>
+<item id="10" name="Wooden Rings" type="rings">
+    <description>Lovely wooden rings for the couple
+    to make their special day even more unique and
+        memorable.
+    </description>
+    <price>3000</price>
+    <icon>wooden</icon>
+</item>
+<item id="11" name="Platinum Rings" type="rings">
+    <description>Platinum rings, for the bond
+        that is as precious as it is strong.
+    </description>
+    <price>3000</price>
+    <icon>rings</icon>
+</item>
+<item id="12" name="Tiara" type="default">
+    <description>A lovely Tiara to adorn the Lady's beautiful locks. Accessorize your designer gown with this custom made designer Silver Tiara</description>
+    <price>12000</price>
+    <icon>tiara</icon>
+</item>
+<item id="13" name="Gown" type="default">
+    <icon>gown</icon>
+    <description>A Lovely Designer Gown to make the Lady's day even more special. Designed by the best Fashion Designers of Goa, and hand made using the choicest of fabrics.</description>
+    <price>20000</price>
+</item>
+
+<itemgroup type="group" id="1001" name="Rings">
+    <addon>10</addon>
+    <addon>11</addon>
+</itemgroup>
+    
+<itemgroup type="package" id="2001" name="Ignite">
+    <addon>1001</addon>
+    <addon>12</addon>
+    <addon>13</addon>
+    <icon>http://shajikhan.in/public/apps/lo/ignite.jpg</icon>
+    <price>20000</price>
+    <description>With our ignite package, you can re-ignite those flames of love, and let your love burn! Suited for newly weds and long term couples alike, let your love find you again.</description>
+</itemgroup>
+    
+<itemgroup type="package" id="2002" name="Excite">
+    <addon>1001</addon>
+    <addon>12</addon>
+    <addon>13</addon>
+    <icon>excite</icon>
+    <price>30000</price>
+    <description>
+        Has your daily routine taken a toll on your love life? Don\'t worry, you\'re not alone - we\'re here to help! Take an escape from reality, and come explore the romance of Goa with us! With our value for money plans for the working couple, you can get away from the noise and chaos of every day life, and rediscover your love for each other. Come, rejuvenate your married life!</description>
+</itemgroup>
+    <item id="21" name="Altar" type="accessories">
+        <icon>http://shajikhan.in/public/apps/lo/altar.jpg</icon>
+        <description>A beautiful altar made from carved oak wood on the gorgeous beaches of Goa is the best place for the couple eternally in love to renew their vows. </description>
+        <price>20000</price>
+    </item>
+    <item id="22" name="Tiara" type="accessories">
+        <icon>tiara</icon>
+        <description>A lovely Tiara to adorn the Lady's beautiful locks. Accessorize your designer gown with this custom made designer Silver Tiara </description>
+        <price>20000</price>
+    </item>
+    <item id="31" name="Rose" type="flowers">
+        <icon>rose</icon>
+        <description>A selection of Roses to decorate your dream wedding. Available colors: Red, White</description>
+        <price>5000</price>
+    </item>
+    <item id="32" name="Lilies" type="flowers">
+        <icon>lily</icon>
+        <description>A selection of Lilies to decorate your dream wedding. Available colors: White </description>
+        <price>5000</price>
+    </item>
+    <item id="33" name="Lilacs" type="flowers">
+        <icon>lilac</icon>
+        <description>A selection of Lilacs to decorate your dream wedding. Available colors: White</description>
+        <price>5000</price>
+    </item>
+    <item id="41" name="Halloween" type="theme">
+        <icon>halloween</icon>
+        <description>Think weddings are scary? Got cold feet? Share that fear, with a halloween themed wedding!</description>
+        <price>15000</price>
+    </item>
+    <item id="42" name="Valentine" type="theme">
+        <icon>sunset</icon>
+        <description>What's more romantic than Valentine's Day? A Valentine's Day themed wedding! Here's your chance to make your dream come true!</description>
+        <price>15000</price>
+    </item>
+    <item id="51" name="Italian Delight" type="food">
+        <icon>italian</icon>
+        <description>Food that tastes good and is just as gorgeous to look at! Feast your guests on an Itailan treat from the best Chefs of Goa</description>
+        <price>15000</price>
+    </item>
+    <item id="52" name="French Fiesta" type="food">
+        <icon>french</icon>
+        <description>Whet your apetite on French culinary delight! Highlight your style with a French catered Wedding to make your day more special</description>
+        <price>15000</price>
+    </item>
+
+</payload>

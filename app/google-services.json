@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "557052080022",
+    "firebase_url": "https://lobeta-30ef7.firebaseio.com",
+    "project_id": "lobeta-30ef7",
+    "storage_bucket": "lobeta-30ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557052080022:android:6b85efbcfc3eda04",
+        "android_client_info": {
+          "package_name": "in.shajikhan.lo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557052080022-u1ags7puvhqm7imtqlb31anv00jcv45v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.shajikhan.lo",
+            "certificate_hash": "9e7fd9252dbb553f44f65e4e785b41327591bea8"
+          }
+        },
+        {
+          "client_id": "557052080022-cohsqkdi0nmjkn04qfud6ljakhtmggh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.shajikhan.lo",
+            "certificate_hash": "63763a98d333e959e3203c55fa822f7e79e80bb3"
+          }
+        },
+        {
+          "client_id": "557052080022-oh58n6tqosemropmqq7sjqvp8v1d0jl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWVDezodM9rbYpnlWmZbcjVU13pHVYDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557052080022-oh58n6tqosemropmqq7sjqvp8v1d0jl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

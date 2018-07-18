@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.shajikhan.lo"
+    android:versionName="@string/version">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="843655716eff15d175c196643ef7cccf2a37c51b" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Packages"
+            android:label="@string/title_activity_packages"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Accessories"
+            android:label="@string/title_activity_accessories"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShoppingCart"
+            android:label="@string/title_activity_shopping_cart"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Flowers"
+            android:label="@string/title_activity_flowers"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Bands"
+            android:label="@string/title_activity_bands"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Theme"
+            android:label="@string/title_activity_theme"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Cuisine"
+            android:label="@string/title_activity_cuisine"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Signup"
+            android:label="@string/title_activity_signup"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity android:name=".LogoutScreen" />
+        <activity android:name=".ResetPassword">
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".DynamicPackage"
+            android:label="@string/title_activity_dynamic_package"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DynamicAccessories"
+            android:label="@string/title_activity_dynamic_accessories"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity android:name=".Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".Error" />
+        <activity
+            android:name=".SelectGateway"
+            android:label="@string/title_activity_select_gateway"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".COD"
+            android:label="@string/title_activity_cod"
+            android:parentActivityName=".SelectGateway"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.SelectGateway" />
+        </activity>
+        <activity
+            android:name=".OrderPlaced"
+            android:label="@string/title_activity_order_placed"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity android:name=".ViewOrder" />
+        <activity
+            android:name=".OrderHistory"
+            android:label="@string/title_activity_order_history"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".UserInfo"
+            android:label="@string/title_activity_user_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:theme="@style/AppTheme.Fullscreen"></activity>
+        <activity android:name=".Invitation" />
+        <activity
+            android:name=".Developer"
+            android:label="@string/title_activity_developer"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.shajikhan.lo.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

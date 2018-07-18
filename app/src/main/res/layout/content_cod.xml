@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="in.shajikhan.lo.COD"
+    tools:showIn="@layout/activity_cod">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Name"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/cod_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ronny 'The Ronster' Saldy"
+            android:inputType="textPersonName"
+             />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Phone"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/cod_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="+0123456789"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Address"/>
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/cod_address"
+            android:hint="Cool Land"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:id="@+id/cod_amount"
+            android:text="Amount"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:id="@+id/cod_pay"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:text="Pay"
+            android:layout_gravity="right"
+            />
+
+        <ProgressBar
+            android:padding="20dp"
+            android:visibility="gone"
+            android:progressTint="@color/colorPrimaryDark"
+            android:progressBackgroundTintMode="add"
+            android:id="@+id/cod_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

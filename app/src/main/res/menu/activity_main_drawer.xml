@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Select addons">
+        <menu>
+        <item android:id="@+id/nav_flowers" android:icon="@drawable/flowers"
+            android:title="Flowers" />
+        <item android:id="@+id/nav_band" android:icon="@drawable/band"
+            android:title="Band" />
+        <item android:id="@+id/nav_cuisine" android:icon="@drawable/food"
+            android:title="Cuisine" />
+        <item android:id="@+id/nav_theme" android:icon="@drawable/theme"
+            android:title="Theme" />
+    </menu>
+    </item>
+    <item android:title="My Account">
+        <menu>
+            <!--<item android:title="" android:id="@+id/nav_user"/>-->
+            <item android:id="@+id/nav_info" android:icon="@android:drawable/ic_menu_view"
+                android:title="User info"
+                android:visible="true"/>
+            <item android:id="@+id/nav_orders" android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Order history"
+                android:visible="true"/>
+
+            <item android:id="@+id/nav_sign_up" android:icon="@drawable/signup"
+                android:title="Sign up"
+                android:visible="false"/>
+            <item android:id="@+id/nav_login" android:icon="@drawable/login"
+                android:title="Log in"
+                android:visible="false"/>
+            <item android:id="@+id/nav_logout" android:icon="@drawable/logout"
+                android:visible="false"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/ic_menu_share"
+                android:title="Share the Love!" />
+            <item android:id="@+id/nav_send" android:icon="@drawable/ic_menu_manage"
+                android:title="Developer" />
+        </menu>
+    </item>
+</menu>

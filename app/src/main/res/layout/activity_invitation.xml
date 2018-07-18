@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.shajikhan.lo.Invitation">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:padding="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dil_red"
+            android:tint="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="32dp"
+            android:paddingBottom="20dp"
+            android:text="Go Dil"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/invitation_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:text="Enter Invitation Code"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/invitation_code"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:inputType="number"/>
+
+        <Button
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:text="Submit"
+            android:visibility="gone"
+            android:id="@+id/invitation_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:padding="50dp"
+            android:id="@+id/invitation_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
