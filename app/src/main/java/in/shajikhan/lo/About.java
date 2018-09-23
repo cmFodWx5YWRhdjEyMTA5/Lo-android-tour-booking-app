@@ -20,8 +20,8 @@ public class About extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         TextView bd = (TextView) findViewById(R.id.builddate);
-        Date buildDate = BuildConfig.buildTime;
-        bd.setText("Build " + buildDate.toString());
+//        Date buildDate = BuildConfig.buildTime;
+//        bd.setText("Build " + buildDate.toString());
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
