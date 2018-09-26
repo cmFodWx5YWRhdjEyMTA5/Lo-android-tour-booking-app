@@ -102,7 +102,9 @@ public class DynamicPackage extends LinearLayout {
         header.setTextColor(getResources().getColor(R.color.colorPrimary));
         header.setTypeface(Typeface.DEFAULT_BOLD);
         header.setGravity(Gravity.CENTER);
-        addView(header);//, layoutParams);
+        // The "logos" are the text imprint
+        // So we are commenting this out here
+        // addView(header);//, layoutParams);
 
         TextView description = new TextView(context);
         description.setText(group.description);

@@ -22,10 +22,9 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="280px"
-            android:src="@drawable/dil"
-            android:tint="@color/colorPrimary"
             android:layout_gravity="center"
-            />
+            android:src="@drawable/fabvows"
+            android:tint="@color/colorPrimary" />
         <Space
             android:layout_width="wrap_content"
             android:layout_height="150px"

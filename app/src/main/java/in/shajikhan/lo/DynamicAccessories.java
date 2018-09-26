@@ -74,6 +74,7 @@ public class DynamicAccessories extends AppCompatActivity {
                 LinearLayout l = new LinearLayout(getApplicationContext());
                 l.setGravity(Gravity.CENTER);
                 l.setPadding(20, 20, 20, 20);
+                // Bharti i love you
                 l.setOrientation(HORIZONTAL);
                 ImageView iv = new ImageView(getApplicationContext());
                 iv.setAdjustViewBounds(true);
@@ -128,7 +129,7 @@ public class DynamicAccessories extends AppCompatActivity {
                 cb.setText("Add to\ncart");
                 cb.setTypeface(Typeface.DEFAULT_BOLD);
 //                cb.setTextSize(12);
-                l.addView(cb);
+//                l.addView(cb);
 
                 final int id = i.id;
                 cb.setOnClickListener(new View.OnClickListener() {
@@ -154,6 +155,7 @@ public class DynamicAccessories extends AppCompatActivity {
                 desc2.setPadding(20,20,20,20);
 
                 layout.addView(l);
+                layout.addView(cb);
                 layout.addView(desc2);
 
             }

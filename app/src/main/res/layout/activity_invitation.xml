@@ -14,24 +14,12 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:padding="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/dil_red"
-            android:tint="@color/colorPrimaryDark"
             android:layout_gravity="center"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="32dp"
-            android:paddingBottom="20dp"
-            android:text="Go Dil"
-            android:fontFamily="sans-serif-light"
-            android:textStyle="italic"
-            />
+            android:padding="30dp"
+            android:src="@drawable/fabvows"
+            android:tint="@color/colorPrimaryDark" />
 
         <TextView
             android:id="@+id/invitation_label"

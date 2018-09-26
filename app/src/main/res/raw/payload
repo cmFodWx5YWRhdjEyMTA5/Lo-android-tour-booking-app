@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <payload>
+
+# ID 500+ Rohan's Themes
+<item id="501" name="Mer-Made for Each Other" type="themes">
+    <description>Description of theme.</description>
+    <price>5000</price>
+    <icon>blue</icon>
+</item>
+
+<item id="502" name="Partners in Passion" type="themes">
+    <description>Description of theme.</description>
+    <price>5000</price>
+    <icon>white</icon>
+</item>
+
+<item id="503" name="Hands in the Sand" type="themes">
+    <description>Description of theme.</description>
+    <price>5000</price>
+    <icon>white</icon>
+</item>
+
+<item id="504" name="Soul Stars" type="themes">
+    <description>Description of theme.</description>
+    <price>5000</price>
+    <icon>white</icon>
+</item>
+
+<item id="505" name="Heavenly Hearts" type="themes">
+    <description>Description of theme.</description>
+    <price>5000</price>
+    <icon>red</icon>
+</item>
+
+<item id="506" name="Dusky Dawn" type="themes">
+    <description>Description of theme.</description>
+    <price>5000</price>
+    <icon>white</icon>
+</item>
+
+
 <item id="10" name="Wooden Rings" type="rings">
     <description>Lovely wooden rings for the couple
     to make their special day even more unique and
@@ -31,24 +70,55 @@
     <addon>11</addon>
 </itemgroup>
     
-<itemgroup type="package" id="2001" name="Ignite">
-    <addon>1001</addon>
-    <addon>12</addon>
-    <addon>13</addon>
-    <icon>http://shajikhan.in/public/apps/lo/ignite.jpg</icon>
-    <price>20000</price>
-    <description>With our ignite package, you can re-ignite those flames of love, and let your love burn! Suited for newly weds and long term couples alike, let your love find you again.</description>
+<itemgroup type="package" id="2001" name="Platinum">
+    <icon>platinum</icon>
+    <price>199999</price>
+    <description>Stay at 5 Star Hotel/Beach Resort
+Business Class tickets for 1 couple Ex Delhi / Mumbai / Chennai / Bangalore / Kolkatta
+Beach Vows attire for the Couple
+Love Rings for the couple
+Drone Videography of Beach Vows
+River Cruise in Mandovi
+Goa hotspots tour package
+Complimentary Pick and drop from the airport to the hotel
+    </description>
 </itemgroup>
     
-<itemgroup type="package" id="2002" name="Excite">
+<itemgroup type="package" id="2002" name="Gold">
+    <icon>gold</icon>
+    <price>149999</price>
+    <description>Stay at 4 Star Hotel/Beach Resort
+Economy Class tickets for 1 couple Ex Delhi / Mumbai / Chennai / Bangalore / Kolkatta
+Beach Vows attire for the Couple
+Love Rings for the couple
+Drone Videography of Beach Vows
+Goa hotspots tour package
+Complimentary Pick and drop from the airport to the hotel.
+    </description>
+</itemgroup>
+<itemgroup type="package" id="2003" name="Silver">
+<!--
     <addon>1001</addon>
     <addon>12</addon>
     <addon>13</addon>
-    <icon>excite</icon>
-    <price>30000</price>
-    <description>
-        Has your daily routine taken a toll on your love life? Don\'t worry, you\'re not alone - we\'re here to help! Take an escape from reality, and come explore the romance of Goa with us! With our value for money plans for the working couple, you can get away from the noise and chaos of every day life, and rediscover your love for each other. Come, rejuvenate your married life!</description>
+    <addon>501</addon>
+    <addon>502</addon>
+    <addon>503</addon>
+    <addon>504</addon>
+    <addon>505</addon>
+    <addon>506</addon>
+-->
+    <icon>silver</icon>
+    <price>99999</price>
+    <description>Stay at 3 Star Hotel/Beach Resort
+Economy Class tickets for 1 couple Ex Delhi / Mumbai / Chennai / Bangalore / Kolkatta
+Beach Vows attire for the Couple
+Love Rings for the couple
+Goa hotspots tour package
+Complimentary Pick and drop from the airport to the hotel
+    </description>
 </itemgroup>
+
     <item id="21" name="Altar" type="accessories">
         <icon>http://shajikhan.in/public/apps/lo/altar.jpg</icon>
         <description>A beautiful altar made from carved oak wood on the gorgeous beaches of Goa is the best place for the couple eternally in love to renew their vows. </description>

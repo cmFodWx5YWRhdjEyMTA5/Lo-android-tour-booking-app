@@ -3,7 +3,7 @@
 
 
 
-    <item android:title="Select addons">
+    <item android:title="Select addons" android:visible="false">
         <menu>
         <item android:id="@+id/nav_flowers" android:icon="@drawable/flowers"
             android:title="Flowers" />
@@ -42,7 +42,7 @@
             <item android:id="@+id/nav_share" android:icon="@drawable/ic_menu_share"
                 android:title="Share the Love!" />
             <item android:id="@+id/nav_send" android:icon="@drawable/ic_menu_manage"
-                android:title="Developer" />
+                android:title="Developer" android:visible="false"/>
         </menu>
     </item>
 </menu>

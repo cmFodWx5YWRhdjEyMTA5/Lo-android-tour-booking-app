@@ -21,13 +21,12 @@
             android:layout_weight="0" />
 
         <ImageView
+            android:id="@+id/error_logo"
             android:layout_width="wrap_content"
             android:layout_height="280px"
-            android:src="@drawable/dil"
-            android:id="@+id/error_logo"
-            android:tint="@color/colorPrimary"
             android:layout_gravity="center"
-            />
+            android:src="@drawable/fabvows"
+            android:tint="@color/colorPrimary" />
         <Space
             android:layout_width="wrap_content"
             android:layout_height="100px"

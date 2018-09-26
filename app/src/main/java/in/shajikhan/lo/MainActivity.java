@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent (getApplicationContext(), DynamicAccessories.class);
-                intent.putExtra("type", "accessories");
+                intent.putExtra("type", "themes");
 
                 startActivity(intent);
             }

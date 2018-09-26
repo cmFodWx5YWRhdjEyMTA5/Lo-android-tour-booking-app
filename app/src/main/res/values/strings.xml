@@ -1,4 +1,4 @@
-<!DOCTYPE resources [<!ENTITY appname "Go Dil"><!ENTITY vername "alpha 667">]>
+<!DOCTYPE resources [<!ENTITY appname "fabvows"><!ENTITY vername "alpha 667">]>
 <resources>
     <string name="version">&appname; Version &vername;</string>
     <string name="app_name">&appname;</string>
@@ -283,7 +283,7 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_up">Sign up</string>
     <string name="no_account">
-        Don\'t have an account? Register with us in 10 sex!
+        Don\'t have an account? Register with us in 10 seconds!
     </string>
     <string name="password_reset_msg">
         Enter your email address, and a password reset email would
@@ -314,7 +314,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_dynamic_accessories">Accessories</string>
+    <string name="title_activity_dynamic_accessories">Themes</string>
     <string name="title_activity_select_gateway">Select Payment Method</string>
     <string name="payment_method_1">Credit / Debit Card</string>
     <string name="payment_method_2">Net Banking</string>

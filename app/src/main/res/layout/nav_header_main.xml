@@ -14,14 +14,14 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:paddingBottom="10dp"
-        android:maxWidth="100dp"
-        android:maxHeight="100dp"
-        android:adjustViewBounds="true"
         android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:tint="@android:color/white"
-        app:srcCompat="@drawable/dil" />
+        app:srcCompat="@drawable/fabvows" />
 
 <!--    <TextView
         android:id="@+id/textView2"
@@ -32,16 +32,17 @@
         android:textColor="@android:color/white"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
 
-    <TextView android:id="@+id/header_main" android:layout_width="wrap_content"
-        android:textColor="@android:color/white"
+    <TextView
+        android:id="@+id/header_main"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Live the Go Dil Life™"
-        android:textStyle="italic"
-        android:textSize="10pt"
-        android:textAlignment="center"
-        android:gravity="center"
         android:layout_gravity="center"
-        android:typeface="serif"
-        />
+        android:gravity="center"
+        android:text="ReVow your life!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="10pt"
+        android:textStyle="italic"
+        android:typeface="serif" />
 
 </LinearLayout>
